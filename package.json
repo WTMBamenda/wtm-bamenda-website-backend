@@ -1,0 +1,20 @@
+{
+  "name": "wtm-bamenda-website-backend",
+  "version": "1.0.0",
+  "description": "WTM Bamenda Backend Website",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.4",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
