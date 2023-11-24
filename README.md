@@ -30,7 +30,7 @@ npm install
 ### Environment Setup
 Create a `.env` file in the root directory with the following contents:
 
-`DB_URI`: MongoDB connection string.
+`MONGODB_URI`: MongoDB connection string.
 `PORT`: Port number for the server (default: 3000).
 
 ### Running the Server
